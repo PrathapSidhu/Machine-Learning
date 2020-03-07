@@ -15,4 +15,14 @@ Here, in this problem our aim is to predict the salary of a person based on his 
 - We read the dataset which is a .csv file and store it in an object
 3. Chossing the dependent and independent variables
 - Here we extract the DV and IDV 
-- **Note:** Since this is a simple dataset 
+- **Note:** Since this is a simple dataset, we are not dealing with any **categorical variables** , **missing value treament** , **data cleaning**
+4. Splitting the data into training and test data
+- In this step we split the dataset into xtrain, xtest, ytrain, ytest
+5. Fit the dataset to the Regressor model
+- Here we fit our xtrain and ytrain to our Regressor model
+- Here the model trains itself by the input provided.
+6. Predicting the ouput for ytest
+- After our model has learnt from the data fed, we predict the test results
+7. Visualization 
+
+**NOTE:** Currently we are not talking about how well the model is performing or whats the measure to know the model's performance
